@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table thead {
+  background-color: #007BFF;
+  color: white;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+table th {
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.actions .fa-edit, .actions .fa-trash-alt {
+  cursor: pointer;
+}
+
+.actions .fa-edit {
+  color: #007BFF;
+}
+
+.actions .fa-trash-alt {
+  color: red;
+}

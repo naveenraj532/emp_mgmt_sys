@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.signup-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.signup-box h2 {
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.signup-box .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.signup-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.signup-box table td {
+    padding: 8px;
+}
+
+.signup-box table input[type="text"],
+.signup-box table input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.signup-box table input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-box table input[type="submit"]:hover {
+    background-color: #0056b3;
+}
